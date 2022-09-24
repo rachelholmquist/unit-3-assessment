@@ -4,11 +4,18 @@ console.log("hello world");
 
 function handleSubmit(evt) {
 	evt.preventDefault();
-	
-	console.log('form submit');
+	alert("This filed has been submitted successfully")
 }
 
 
 let form = document.querySelector('#contact');
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener('click', handleSubmit);
+
+function imageCompliment() {
+	alert("You have a beautiful smile!")
+}
+
+let imageMouse = document.querySelector('#duck');
+
+imageMouse.addEventListener('mouseover', imageCompliment);
