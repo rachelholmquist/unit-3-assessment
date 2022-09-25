@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Homepage</title>
+	<title>My Neighborhood</title>
 	<link href="styles.css" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
 </head>
 <body>
 	<nav>
@@ -14,7 +16,7 @@
 			<li class="crumb"><a href=./neighborhood.html>My Neighborhood</a></li>
 	    </ol>
 	</nav>
-    <h1>Olympia, WA</h1>
+    <h1 id="olympia">Olympia, WA</h1>
     <h2>Parks</h2>
     <section id="parks">
         <a href="https://olytumfoundation.org/what-we-do/tumwater-falls-park"><img src="https://www.waterfallsnorthwest.com/pictures/1311980399-Middle-Tumwater-Falls-WA-653.jpg" class="nghbrhdimg"></a>
@@ -22,7 +24,26 @@
         <a href="https://www.wta.org/go-hiking/hikes/burfoot-park"><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Looking_SW_across_Budd_Inlet_from_Burfoot_Park.jpg" class="nghbrhdimg"></a>
         <a href="https://www.fws.gov/refuge/billy-frank-jr-nisqually"><img src=https://www.wta.org/site_images/hikes/nisqually-boardwalk-tomas.jpg/@@images/0a6e9865-4630-476b-addb-3d282a192e5c.jpeg class="nghbrhdimg"></a>
     </section>
-    <section id="restaurants"></section>
-    <section id="activities"></section>
-
+    <h2>Activities:</h2>
+    <section id="activities">
+        <a href="olympiafarmersmarket.com"><img src=https://www.thurstontalk.com/wp-content/uploads/2021/03/Olympia-Farmers-Market-2021-online-shopping.jpg class="nghbrhdimg"></a>
+        <a href="bostonharbormarina.com/pages/rentals"><img src=https://cdn.shopify.com/s/files/1/0571/1981/t/14/assets/logo.png?v=68182531324570745851447549699 class="nghbrhdimg"></a>
+        <a href="https://www.washingtoncenter.org/events/?gclid=EAIaIQobChMIqfna8uGw-gIVsR-tBh2QiAKGEAAYASAAEgJhzPD_BwE"><img src=https://www.washingtoncenter.org/wp-content/uploads/2016/08/HouseInterior.jpg class="nghbrhdimg"></a>
+        <a href="https://olympiafilmsociety.org/"><img src=https://www.benbcheneyfoundation.org/wp-content/uploads/2021/04/capitol-theater-photo-800x450.jpg class="nghbrhdimg"></a>
+    </section>
+    <h2>Restaurants:</h2>
+    <section id="restaurants">
+        <a href="https://www.meconissubs.com/"><img src=https://images.squarespace-cdn.com/content/v1/5e2c90fb863cd80036e5346b/1579979200156-T9FH59PJSY7Z9VOQUGDV/meconissubslogo1-e1358799045784.png class="nghbrhdimg"></a>
+        <a href="https://pellegrinositaliankitchen.com/"><img src=https://pellegrinositaliankitchen.com/wp-content/uploads/2018/07/logo.png class="nghbrhdimg"></a>
+        <a href="https://tugboatannies.com/restaurnt/"><img src=https://tugboatanniesdotcom.files.wordpress.com/2015/12/2006-tshirt41.jpg class="nghbrhdimg"></a>
+        <a href="https://www.vicspizzaoly.com/"><img src=https://static.wixstatic.com/media/3194d8_ac9f5a4b3d4e44e2b8ce3ce0d1803c3d~mv2.png class="nghbrhdimg"></a>   
+    </section>
+    <section id="random-generator">
+    <div id="random-restaurant-generator">
+        <h2 id="generator-header">Can't decide what to have for dinner?</h2>
+        <h2 id="random-restaurant-name"></h2>
+        <button id="random-btn">Click Here For A Random Restaurant!</button>
+    </div>
+</section>
+    <script src="neighborhood.js"></script>
 </body>

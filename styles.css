@@ -3,6 +3,7 @@ body {
   margin: 1rem;
   padding: 1rem;
   max-width: 500px;
+  font-family: 'Libre Baskerville', serif;
   margin: 2rem auto;
   font-family: "Open Sans", sans-serif;
   display: flex;
@@ -46,6 +47,11 @@ img {
 	max-width: 300px;
 }
 
+#olympia {
+	text-align: center;
+	width: 600px;
+}
+
 .btn {
 	height: 74px;
 	width: 150px;
@@ -62,7 +68,56 @@ img {
 	flex-wrap: wrap;
 }
 
+#restaurants {
+	width: 600px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+#activities {
+	width: 600px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	flex-wrap: wrap;
+}
 .nghbrhdimg {
-	width: 400px;
-	height: 250px;
+	height: 175px;
+	width: 375px;
+}
+
+#random-generator {
+	padding-top: 20px;
+	display: flex;
+	justify-content: center;
+	width: 600px;
+}
+
+#random-restaurant-generator {
+	padding: 10px;
+	height: 200px;
+	width: 300px;
+	border-radius: 10%;
+	border: 2px solid black;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+}
+
+#generator-header {
+	font-size: 22px;
+	
+}
+
+#random-btn {
+	border: 2px solid black;
+	border-radius: 2%;
+	background-color: whitesmoke;
+}
+
+#random-restaurant-name {
+	font-size: 26px;
 }
