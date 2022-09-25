@@ -4,7 +4,7 @@ console.log("hello world");
 
 function handleSubmit(evt) {
 	evt.preventDefault();
-	alert("This filed has been submitted successfully")
+	alert("This file has been submitted successfully")
 }
 
 
